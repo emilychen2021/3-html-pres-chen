@@ -1,0 +1,91 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+        <!-- character encoding -->
+        <meta charset="UTF-8">
+        <!-- title tag -->
+        <title>Good Health and Well-Being</title>
+        <!-- make web page mobile friendly -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- meta description -->
+        <meta name="description" content="Learn about the UN sustainable goal to improve the health and well-being of lives around the world. By 2030, the UN hopes to decrease global morality rates, achieve universal health coverage, end many epidemics, and more..."/>
+        <!-- W3.css -->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <!-- custom css -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+        <!-- local W3.css
+<link rel="stylesheet" href="css/w3.css">-->
+
+    </head>
+
+    <body>
+
+        <!-- SLIDE 1 -->
+        <section class="mySlides fs-img1" id="full-screen-image">
+
+            <h1 class="w3-container w3-display-middle black-transparent w3-text-white w3-center w3-wide">Good Health and Well-Being</h1>
+
+        </section>
+
+        <!-- SLIDE 2 -->
+        <section class="mySlides" id="two-row-slide" style="height: 100%;">
+
+            <div class="w3-cell-row" style="height: 50%;">
+                <div class="w3-cell w3-container w3-mobile hs-img1" style="height: 100%;">
+                    <p class="yellowtext">The World Health Organization Flag</p>
+                </div>
+            </div>
+
+            <div class="w3-cell-row" style="height: 50%;">
+                <div class="w3-cell w3-container w3-blue w3-mobile">
+                    <h2>The United Nations has created a goal to help improve universal health care. By 2030, the UN wants to achieve equal health care, </h2>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- SLIDE 3 -->
+        <section class="mySlides" id="two-column-slide" style="height: 100%;">
+            <div class="w3-cell-row" style="height: 100%;">
+                <div class="w3-cell w3-container w3-green w3-mobile" style="width: 50%;">
+                    <h1>Solar Panels</h1>
+                    <p> Solar energy is awesome. Yay.</p>
+
+                </div>
+                <div class="w3-cell w3-container w3-blue w3-mobile hs-img2" style="height: 50%%;">
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 4 -->
+        <section class="mySlides" id="full-screen-video">
+            <!-- The video -->
+            <video autoplay muted loop id="myVideo">
+                <source src="img/medicalsupplyrotating.mp4" type="video/mp4">
+            </video>
+
+            <!-- Optional: some overlay text to describe the video -->
+            <div class="content">
+                <h1>Health is currently not equal.</h1>
+                <p>Lorem ipsum...</p>
+                <!-- Use a button to pause/play the video with JavaScript -->
+                <button id="myBtn" onclick="myFunction()">Pause</button>
+            </div>
+        </section>
+        
+
+        <!-- slideshow arrow indicators -->
+        <button class="w3-button w3-display-left w3-gray w3-xxlarge w3-text-white" onclick="plusDivs(-1)">&#x25c0;</button>
+        <button class="w3-button w3-display-right w3-gray w3-xxlarge w3-text-white" onclick="plusDivs(+1)">&#x25ba;</button>
+
+        <!-- Javascript -->
+        <script src="js/slideshow.js"></script>
+        <script src="js/video.js"></script>
+
+    </body>
+
+</html>
