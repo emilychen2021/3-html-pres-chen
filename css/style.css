@@ -2,18 +2,6 @@ body, html {
     height: 100%;
 }
 
-.fs-img1 { 
-    /* The image used */
-    background-image: url("/img/healthcheckfs.jpg");
-
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .black-transparent {
     background-color: rgba(0,0,0,0.5)
@@ -32,6 +20,14 @@ h2 {
     font-size: 3vw;
     padding: 2% 2% 2% 2%;
 }
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10vh;
+    font-size: 4vw;
+    padding: 1% 1% 1% 1%;
+}
+
 
 p {
     font-family: 'Roboto', sans-serif;
@@ -60,6 +56,136 @@ p {
 .hs-img2 { 
     /* The image used */
     background-image: url("/img/sickchild.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hs-img3 { 
+    /* The image used */
+    background-image: url("/img/redshirtkid.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hs-img4 { 
+    /* The image used */
+    background-image: url("/img/hospital.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hs-img5 { 
+    /* The image used */
+    background-image: url("/img/woman.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hs-img6 { 
+    /* The image used */
+    background-image: url("/img/stress.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fs-img1 { 
+    /* The image used */
+    background-image: url("/img/healthcheckfs.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fs-img2 {
+    /* The image used */
+    background-image: url("/img/donate.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fs-img3 { 
+    /* The image used */
+    background-image: url("/img/redshirtkid.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fs-img4 { 
+    /* The image used */
+    background-image: url("/img/happykids2.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fs-img5 { 
+    /* The image used */
+    background-image: url("/img/sunflower.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fs-img6 { 
+    /* The image used */
+    background-image: url("/img/highschool.jpg");
 
     /* Full height */
     height: 100%; 
@@ -102,9 +228,10 @@ p {
 }
 
 #myBtn:hover {
-    background: #ddd;
+    background: #504f4f;
     color: black;
 }
+
 
 
 
